@@ -126,7 +126,7 @@ class RaifamParser {
         let recordKeys = null
         if (this.recordType == 'H') {
             parsed =  this.__parseH();
-            recordKeys = this.getArticleRecordKeys()
+            recordKeys = this.getHeaderRecordKeys()
         } else if (this.recordType == 'P') {
             parsed = this.__parseP()
             recordKeys = this.getArticleRecordKeys()
